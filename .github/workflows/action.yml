@@ -27,7 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          sudo pacman -S clang lld gcc
           sudo lscpu
           sudo free -h
           #du --max-depth=1 -h /
@@ -35,4 +34,3 @@ jobs:
           sudo ls -alh /github
           sudo ls -alh /github/home/opt
           sudo touch /github/home/opt/test
-          sudo clang -v
