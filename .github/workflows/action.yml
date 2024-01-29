@@ -29,6 +29,8 @@ jobs:
         run: |
           sudo lscpu
           sudo free -h
+          sudo ls
+          pwd
           #du --max-depth=1 -h /
           sudo ls -alh /
           sudo ls -alh /github
